@@ -4,7 +4,7 @@ var express = require('express');
 var route = express.Router();
 
 route.get('/users',function(req,res){
-  res.send('good');
+  res.send('goods');
 });
 
 module.exports = route;

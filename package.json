@@ -4,7 +4,9 @@
   "description": "Nothing",
   "license": "MIT",
   "repository":"git",
-  "scripts": {},
+  "scripts": {
+	"start":"nodemon app/app.js"
+  },
   "author": "ishan Fernando",
   "dependencies": {
     "express": "^4.14.0"
